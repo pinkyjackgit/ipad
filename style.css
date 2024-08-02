@@ -20,6 +20,7 @@ body {
   padding: 0px 30px;
 }
 
+/* navbar & hero div */
 .content-div1 {
   background-color: #1f2937;
 }
@@ -78,5 +79,50 @@ body {
   /* flex */
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+/* information */
+
+.content-div2 {
+  background-color: #f0f0f0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  margin: 30px 0px;
+}
+
+.info-title h2 {
+  margin: 0px;
+  color: black;
+  font-size: 36px;
+}
+
+.boxes {
+  width: 130px;
+  text-align: center;
+}
+
+.boxes p {
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+.box {
+  height: 130px;
+  width: 130px;
+  border: solid #3882f6 3px;
+  border-radius: 15px;
+}
+
+.box-div {
+  display: flex;
+  gap: 40px;
   justify-content: center;
 }
